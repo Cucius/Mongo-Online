@@ -1,0 +1,30 @@
+{
+  "name": "mongo-online",
+  "version": "1.0.0",
+  "description": "NoSQL Social Network API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node utils/seed.js",
+    "start:dev": "nodemon: server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Cucius/Mongo-Online.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Cucius/Mongo-Online/issues"
+  },
+  "homepage": "https://github.com/Cucius/Mongo-Online#readme",
+  "dependencies": {
+    "express": "^4.18.1",
+    "mongoose": "^6.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.9"
+  }
+}
