@@ -29,4 +29,8 @@ const reactionSchema = new Schema(
   }
 );
 
+function formatDate(date) {
+  return date.toUTCString();
+}
+
 module.exports = reactionSchema;

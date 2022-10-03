@@ -29,6 +29,10 @@ const thoughtSchema = new Schema(
   }
 );
 
-const User = model("thought", thoughtSchema);
+function formatDate(date) {
+  return date.toUTCString();
+}
+
+const Thought = model("thought", thoughtSchema);
 
 module.exports = Thought;
