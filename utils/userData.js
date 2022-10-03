@@ -62,4 +62,4 @@ const thoughtData = [
   },
 ];
 
-(module.export = userData), thoughtData;
+module.export = userData;
