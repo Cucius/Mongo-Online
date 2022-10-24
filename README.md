@@ -20,6 +20,6 @@ This is the back-end code for an API to help the client's website handle unstruc
 
 ## Video Walkthrough
 
-![Gif](#)
+<!-- ![Gif](#) -->
 
-You can find the video walkthrough here: [Mongo-Online](#)
+You can find the video walkthrough here: [Mongo-Online](https://www.youtube.com/watch?v=4yj-HUIvRnU)

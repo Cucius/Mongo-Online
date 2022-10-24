@@ -14,7 +14,7 @@ module.exports = {
   createThought(req, res) {
     Thought.create(req.body)
       .then((thought) => {
-        return User.findOneAndUpdate({ _id: req.body.userId }, { $addToSet: { thoughts: thought._id } }, { runValidators: true, new: true });
+        return User.findOneAndUpdate({ _id: req.params.userId }, { $addToSet: { thoughts: thought._id } }, { runValidators: true, new: true });
       })
       .then((user) =>
         !user
